@@ -1,0 +1,87 @@
+/* Imports */
+
+/* Variables */
+
+$small-screen: 48em !default;
+$medium-screen: 62em !default;
+$large-screen: 75em !default;
+// $font-family:
+$font-size-base: 1rem !default;
+$font-size-h1: 2rem !default;
+$font-weight-strong: 600;
+$base-line-height: 1.5rem;
+$text-color: #000;
+$bg-color: #fff;
+$primary-color: #ff0000;
+
+/* General */
+
+html {
+  background: $bg-color;
+  color: $text-color;
+  // font-family: $font-family;
+  font-size: $font-size-base;
+  font-weight: normal;
+  height: 100%;
+  line-height: $base-line-height;
+}
+
+body {
+  height: 100%;
+}
+
+/* Typography */
+
+h1 {
+  font-size: $font-size-h1;
+  font-weight: $font-weight-strong;
+  line-height: 2rem;
+}
+
+p {
+  word-spacing: 0.1rem;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $text-color;
+  }
+}
+
+/* Layout */
+
+/* Header */
+
+/* Footer */
+
+.footer {
+  background: $bg-color;
+  color: $text-color;
+  margin: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer a {
+  color: $primary-color;
+
+  &:hover,
+  &:focus {
+    background: $bg-color;
+    color: $text-color;
+  }
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: $small-screen) {
+}
+
+@media only screen and (min-width: $medium-screen) {
+}
+
+@media only screen and (min-width: $large-screen) {
+}

@@ -1,0 +1,46 @@
+/* Imports */
+/* Variables */
+/* General */
+html {
+  background: #fff;
+  color: #000;
+  font-size: 1rem;
+  font-weight: normal;
+  height: 100%;
+  line-height: 1.5rem; }
+
+body {
+  height: 100%; }
+
+/* Typography */
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2rem; }
+
+p {
+  word-spacing: 0.1rem; }
+
+a {
+  color: #ff0000;
+  text-decoration: none; }
+  a:hover {
+    color: #000; }
+
+/* Layout */
+/* Header */
+/* Footer */
+.footer {
+  background: #fff;
+  color: #000;
+  margin: 0.5rem;
+  padding: 1rem;
+  text-align: center; }
+
+.footer a {
+  color: #ff0000; }
+  .footer a:hover, .footer a:focus {
+    background: #fff;
+    color: #000; }
+
+/* Media Queries */

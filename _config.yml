@@ -1,0 +1,19 @@
+# Site settings
+title: Some title
+description: Some description
+baseurl: "" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. https://example.com/
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude:
+  [
+    "_assets",
+    "Gemfile",
+    "Gemfile.lock",
+    "gulpfile.js",
+    "node_modules",
+    "package.json",
+  ]
