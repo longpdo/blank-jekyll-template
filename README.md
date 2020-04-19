@@ -1,5 +1,4 @@
 <!-- TODO -->
-
 Here's a blank Jekyll template to get started:
 
 Run gulp to start developing with BrowserSync:
@@ -8,53 +7,39 @@ Run gulp to start developing with BrowserSync:
 gulp
 ```
 
+Run gulp build for production to minify SASS and JS before pushing and deploying:
+
+```sh
+gulp build
+```
+
 **To avoid retyping too much info on the README. Do a search and replace with your text editor for the following:**
 
 - `_GITHUBUSER_`
 - `_REPOSITORY_`
-<!-- END TODO | DELETE THIS AFTER REPLACING ABOVE VALUES -->
+<!-- END TODO | DELETE ABOVE TEXT AFTER REPLACING VALUES -->
 
-<!-- MARKDOWN LINKS & IMAGES -->
+# YOUR_TITLE <!-- omit in toc -->
 
-[product-screenshot]: images/screenshot.png
+> YOUR_SHORT_DESCRIPTION
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/_GITHUBUSER_/_REPOSITORY_">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+[![Open Issues](https://badgen.net/github/open-issues/_GITHUBUSER_/_REPOSITORY_)](https://github.com/_GITHUBUSER_/_REPOSITORY_/issues)
+[![License](https://badgen.net/github/license/_GITHUBUSER_/_REPOSITORY_)](LICENSE)
 
-  <h3 align="center">YOUR_TITLE</h3>
-
-  <p align="center">
-    YOUR_SHORT_DESCRIPTION
-    <br />
-    <a href="https://github.com/_GITHUBUSER_/_REPOSITORY_">View Demo</a>
-    ·
-    <a href="https://github.com/_GITHUBUSER_/_REPOSITORY_/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/_GITHUBUSER_/_REPOSITORY_/issues">Request Feature</a>
-    <br />
-    <br />
-    <a href="https://github.com/_GITHUBUSER_/_REPOSITORY_/issues"><img src="https://badgen.net/github/open-issues/_GITHUBUSER_/_REPOSITORY_" /></a>
-    <a href="LICENSE"><img src="https://badgen.net/github/license/_GITHUBUSER_/_REPOSITORY_" /></a>
-  </p>
-</p>
+[View Demo](https://github.com/_GITHUBUSER_/_REPOSITORY_) · [Report Bug](https://github.com/_GITHUBUSER_/_REPOSITORY_/issues) · [Request Feature](https://github.com/_GITHUBUSER_/_REPOSITORY_/issues)
 
 <!-- TABLE OF CONTENTS -->
+## Table of Contents <!-- omit in toc -->
 
-## Table of Contents
-
-- [About the Project](#about-the-project)
-  - [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+* [About The Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [License](#license)
+* [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 
@@ -86,26 +71,24 @@ npm install npm@latest -g
 
 ### Installation
 
-1. Clone the repository
+1: Clone the repository
 
 ```sh
 git clone https://github.com/_GITHUBUSER_/_REPOSITORY_.git
 ```
 
-2. Install NPM packages
+2: Install NPM packages
 
 ```sh
 npm install
 ```
 
 <!-- USAGE EXAMPLES -->
-
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 <!-- CONTRIBUTING -->
-
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -117,15 +100,16 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 <!-- LICENSE -->
-
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- ACKNOWLEDGEMENTS -->
-
 ## Acknowledgements
 
 - []()
 - []()
 - []()
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: images/screenshot.png
