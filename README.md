@@ -1,17 +1,28 @@
 <!-- TODO -->
 Here's a blank Jekyll template to get started:
 
-Run gulp to start developing with BrowserSync:
+* Fork the repository (using the `Fork` button at the top)
+
+* Clone the repository
+
+```sh
+# Replace {YOUR_USERNAME} with your actual username
+git clone https://github.com/{YOUR_USERNAME}/blank-jekyll-template.git
+```
+
+* Run gulp to start developing with BrowserSync:
 
 ```sh
 gulp
 ```
 
-Run gulp build for production to minify SASS and JS before pushing and deploying:
+* Run gulp build for production to minify SASS and JS before pushing and deploying:
 
 ```sh
 gulp build
 ```
+
+* The rest of this `README` is a README template, you can use for your repository.
 
 **To avoid retyping too much info on the README. Do a search and replace with your text editor for the following:**
 
