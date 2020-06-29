@@ -1,7 +1,7 @@
 <!-- TODO -->
 Here's a blank Jekyll template to get started:
 
-* Fork the repository (using the `Fork` button at the top)
+* Fork the repository (using the `Fork` button at the top) or create your own repository (using the green `Use this template` button at the top)
 
 * Clone the repository
 
